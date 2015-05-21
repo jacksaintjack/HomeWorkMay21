@@ -15,10 +15,10 @@ body:before {
 
 }
 
+/* starts of the media button section */
 .mediaButtons{
   float: right;
   display: inline;
-  background-color: green;
   width: 320px;
   height: 50px;
   margin-right: 300px;
@@ -30,9 +30,7 @@ body:before {
   padding-top: 18px;
   color: white;
   diplay:none;
-}
-.facebook<i{
-  padding: 8px;
+  margin-left: -70px;
 }
 
 .youtube{
@@ -40,19 +38,40 @@ body:before {
   width:15%;
   height:90%;
   float:right;
+
+}
+
+.youtube>div{
+  padding-top: 7px;
+  padding-left: 9px;
+  color:white;
 }
 .twitter{
   background-color: #6A8DC7;
   width:15%;
   height:90%;
   float:right;
+  margin-right:7px;
 }
 
-.comment{
+.twitter>div{
+  padding-top: 7px;
+  padding-left: 9px;
+  margin-right:7px;
+  color:white;
+}
+
+.rss{
     background-color:#CA8E31;
     width:15%;
     height:90%;
     float:right;
+    margin-right:7px;
+}
+.rss>div{
+  padding-top: 7px;
+  padding-left: 9px;
+  color:white;
 }
 
 .facebook {
@@ -60,4 +79,29 @@ body:before {
   width:15%;
   height:90%;
   float:right;
+  margin-right:7px;
 }
+
+.facebook>div{
+  padding-top: 7px;
+  padding-left: 11px;
+  color:white;
+}
+
+.dots{
+  padding-left: 97px;
+  padding-top: 7px;
+}
+
+.dots>div{
+  color: white;
+
+}
+
+.dot>span{
+  padding-left: 69px;
+  font-size:6px
+
+}
+
+/* THIS END THE SECTION ON MEDIA BUTTONS*/
