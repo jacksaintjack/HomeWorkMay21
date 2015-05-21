@@ -1,0 +1,63 @@
+body{
+  background: url("pictures/bg.jpg") top left no-repeat;
+  background-size: cover;
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom right, #000, #070719);
+  opacity: .6;
+
+}
+
+.mediaButtons{
+  float: right;
+  display: inline;
+  background-color: green;
+  width: 320px;
+  height: 50px;
+  margin-right: 300px;
+}
+
+.mediaButtons>span{
+  font-size: 10px;
+  float: left;
+  padding-top: 18px;
+  color: white;
+  diplay:none;
+}
+.facebook<i{
+  padding: 8px;
+}
+
+.youtube{
+  background-color:#B52F23;
+  width:15%;
+  height:90%;
+  float:right;
+}
+.twitter{
+  background-color: #6A8DC7;
+  width:15%;
+  height:90%;
+  float:right;
+}
+
+.comment{
+    background-color:#CA8E31;
+    width:15%;
+    height:90%;
+    float:right;
+}
+
+.facebook {
+  background-color:#445897;
+  width:15%;
+  height:90%;
+  float:right;
+}
