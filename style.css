@@ -70,7 +70,7 @@ body:before {
 }
 .rss>div{
   padding-top: 7px;
-  padding-left: 9px;
+  padding-left: 13px;
   color:white;
 }
 
@@ -84,7 +84,7 @@ body:before {
 
 .facebook>div{
   padding-top: 7px;
-  padding-left: 11px;
+  padding-left: 14px;
   color:white;
 }
 
@@ -101,7 +101,289 @@ body:before {
 .dot>span{
   padding-left: 69px;
   font-size:6px
+  padding-top: 17px;
 
 }
 
 /* THIS END THE SECTION ON MEDIA BUTTONS*/
+
+/* START OF TOP NAVIGATION BAR */
+.topNavigation{
+  width: 676px;
+  height: 31px;
+  margin-top: 7px;
+  float: left;
+  margin-left: 292px;
+}
+
+.redBarOne{
+  width: 163px;
+  height:27px;
+  background-color: #B3282E;
+  float:right;
+
+}
+
+.lineText{
+  float: right;
+  margin-right: 23px;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.rightBar{
+  margin-right: 13px;
+}
+.leftBar{
+  margin-left: 13px;
+}
+
+.redBarTwo{
+  width: 163px;
+  height:27px;
+  background-color: #B3282E;
+  float:right;
+  margin-right: 7px;
+}
+
+.lineTextTwo{
+  float: right;
+  margin-right: 16px;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.rightBarTwo{
+  margin-right: 13px;
+}
+.leftBarTwo{
+  margin-left: 13px;
+}
+
+.redBarThree{
+  width: 163px;
+  height:27px;
+  background-color: #B3282E;
+  float:right;
+  margin-right: 7px;
+
+}
+
+.lineTextThree{
+  float: right;
+  margin-right: 9px;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.rightBarThree{
+  margin-right: 11px;
+}
+.leftBarThree{
+  margin-left: 11px;
+}
+
+.redBarFour{
+  width: 163px;
+  height:27px;
+  background-color: #B3282E;
+  float:right;
+  margin-right: 7px;
+}
+
+.lineTextFour{
+  float: right;
+  margin-right: 23px;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.rightBarFour{
+  margin-right: 15px;
+}
+.leftBarFour{
+  margin-left: 15px;
+}
+
+/* END OF NAV BAR */
+
+/* Start of article picture */
+
+.pictureArticle{
+  background-color: white;
+  width: 674px;
+  height: 290px;
+  float: left;
+  margin-top: 48px;
+  margin-left: -673px;
+}
+
+.topPicture{
+  width: 656px;
+  height: 276px;
+  margin-left: 9px;
+  margin-top: 7px;
+
+
+}
+.topPicture2{
+  width: 656px;
+  height: 276px;
+  margin-left: 9px;
+  margin-top: 7px;
+  position:absolute;
+  opacity: 0.1;
+
+}
+.logo{
+  position:absolute;
+  margin-left: -648px;
+  margin-top: 62px;
+  height: 162px;
+  width: 259px;
+}
+
+/*END OF TOP PICTURE*/
+
+/* START OF CIRCLE SELECTIONS */
+.circleSelection{
+  float:left;
+  list-style-type: none;
+  margin-top: 343px;
+  margin-left: -391px;
+  color: #B3282E;
+}
+
+.circle{
+  display:inline-block;
+
+}
+/* END OF CIRCLE SELECTIONS */
+
+/* START OF ARTICLE SELECTIONS */
+
+.articles{
+
+  width: 675px;
+  height:231px;
+  margin-top: 27px;
+  margin-left: -372px;
+  float: left;
+
+
+}
+
+.boxOne{
+  background-color:white;
+  width: 32.25%;
+  height:99%;
+  float:left;
+
+
+}
+
+.titleOne{
+  font-size: 19px;
+  margin: 0px;
+  line-height: 15%;
+  margin-left: 16px;
+  color: #555752;
+}
+
+.dateOne{
+  font-size: 9px;
+  margin: 0px;
+  color: #B8B8B8;
+  margin-left: 16px;
+}
+
+.bodyTextOne{
+  font-size: 8px;
+  margin-left: 16px;
+  color: #555752;
+}
+
+.readMoreOne{
+  font-size: 9px;
+  color: #AF1226;
+  margin-left: 70px;
+  margin-top: 14px;
+}
+
+
+
+.boxTwo{
+  background-color:white;
+  width:32.25%;
+  height:99%;
+  float: left;
+  margin-left:10px;
+}
+
+.titleTwo{
+  font-size: 19px;
+  margin: 0px;
+  line-height: 15%;
+  margin-left: 16px;
+  color: #555752;
+}
+
+.dateTwo{
+  font-size: 9px;
+  margin: 0px;
+  color: #B8B8B8;
+  margin-left: 16px;
+}
+
+.bodyTextTwo{
+  font-size: 8px;
+  margin-left: 16px;
+  color: #555752;
+}
+
+.readMoreTwo{
+  font-size: 9px;
+  color: #AF1226;
+  margin-left: 70px;
+  margin-top: 14px;
+}
+
+.boxThree{
+  background-color:white;
+  width:32.25%;
+  height:99%;
+  float: left;
+  margin-left:10px;
+}
+
+.titleThree{
+  font-size: 19px;
+  margin: 0px;
+  line-height: 15%;
+  margin-left: 16px;
+  color: #555752;
+}
+
+.dateThree{
+  font-size: 9px;
+  margin: 0px;
+  color: #B8B8B8;
+  margin-left: 16px;
+}
+
+.bodyTextThree{
+  font-size: 8px;
+  margin-left: 16px;
+  color: #555752;
+}
+
+.readMoreThree{
+  font-size: 9px;
+  color: #AF1226;
+  margin-left: 70px;
+  margin-top: 18px;
+}
