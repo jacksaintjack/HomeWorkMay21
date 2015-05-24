@@ -494,6 +494,7 @@ body:before {
 }
 /* END OF PROFILES */
 
+/* START OF SKATEBOARDS */
 .skateBoards{
   background-color: white;
   height: 300px;
@@ -504,7 +505,7 @@ body:before {
 }
 
 .skatePictures{
-  list-style: none;
-  height:10px;
-  width:10px;
+  text-align: center;
+  margin-top: 23px;
 }
+/* END OF SKATEBOARDS */
