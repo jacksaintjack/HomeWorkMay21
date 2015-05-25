@@ -18,7 +18,6 @@ body:before {
 
 /* starts of the media button section */
 
-
 .mediaButtons{
   float: right;
   display: inline;
@@ -643,11 +642,11 @@ body:before {
 
   }
 
-  .stevePicture:hover{
-    box-shadow: -10px -10px 0 white;
-    -webkit- transform: translate(10px, 10px);
-    -moz- transform: translate(10px, 10px);
-    transform: translate(10px, 10px);
+.stevePicture:hover{
+  box-shadow: -10px -10px 0 white;
+  -webkit- transform: translate(10px, 10px);
+  -moz- transform: translate(10px, 10px);
+  transform: translate(10px, 10px);
   }
 
 .steveText{
@@ -860,4 +859,10 @@ START OF BOTTOM MEDIA BUTTONS */
 
 img {
   max-width:100;
+}
+/* MOBILE SETTINGS */
+@media (max-width: 800px) {
+  .notMobile{
+    display:none;
   }
+}
