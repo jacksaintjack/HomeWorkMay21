@@ -12,16 +12,19 @@ body:before {
   bottom: -1254px;
   background-image: linear-gradient(to top left, #000, #070719);
   opacity: .4;
+  z-index:-1
 
 }
 
 /* starts of the media button section */
+
+
 .mediaButtons{
   float: right;
   display: inline;
   width: 320px;
   height: 50px;
-  margin-right: 300px;
+  margin-right: 282px;
 }
 
 .mediaButtons>span{
@@ -112,7 +115,6 @@ body:before {
   float: left;
 
 }
-
 /* THIS END THE SECTION ON MEDIA BUTTONS*/
 
 /* START OF TOP NAVIGATION BAR */
@@ -130,7 +132,15 @@ body:before {
   background-color: #B3282E;
   float:right;
   border-bottom: 3px solid #8D8B89;
+  cursor:pointer;
+}
 
+.redBarOne:hover{
+  background: blue;
+  opacity: 0.5;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s;
 }
 
 .lineText{
@@ -155,7 +165,17 @@ body:before {
   float:right;
   margin-right: 7px;
   border-bottom: 3px solid #8D8B89;
+  cursor:pointer
 }
+
+.redBarTwo:hover{
+  background: blue;
+  opacity: 0.5;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s;
+}
+
 
 .lineTextTwo{
   float: right;
@@ -179,8 +199,18 @@ body:before {
   float:right;
   margin-right: 7px;
   border-bottom: 3px solid #8D8B89;
+  cursor:pointer;
 
 }
+
+.redBarThree:hover{
+  background: blue;
+  opacity: 0.5;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s;
+}
+
 
 .lineTextThree{
   float: right;
@@ -204,7 +234,17 @@ body:before {
   float:right;
   margin-right: 7px;
   border-bottom: 3px solid #8D8B89;
+  cursor:pointer;
 }
+
+.redBarFour:hover{
+  background: blue;
+  opacity: 0.5;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s;
+}
+
 
 .lineTextFour{
   float: right;
@@ -235,6 +275,7 @@ body:before {
   border-bottom: 3px solid #8D8B89;
 }
 
+
 .topPicture{
   width: 656px;
   height: 276px;
@@ -251,7 +292,7 @@ body:before {
   margin-left: 9px;
   margin-top: 7px;
   position:absolute;
-  opacity: 0.1;
+  opacity: 0.3;
 
 }
 .logo{
@@ -265,18 +306,20 @@ body:before {
 /*END OF TOP PICTURE*/
 
 /* START OF CIRCLE SELECTIONS */
+
+
 .circleSelection{
   float:left;
   list-style-type: none;
   margin-bottom: 10px;
   margin-top: 346px;
   margin-left: -395px;
-  color: #B3282E;
+  color: white;
 }
 
 .circle{
   display:inline-block;
-  border-bottom: 3px solid #8D8B89;
+  border-bottom: 3px solid white;
 
 }
 /* END OF CIRCLE SELECTIONS */
@@ -339,6 +382,13 @@ body:before {
 
 }
 
+.boxOne:hover{
+  background: #E6F1F6;
+  -webkit-transition: background 0.4s, color 0.4s;
+  -moz-transition: background 0.4s, color 0.4s;
+  transition: background 0.4s, color 0.4s;
+}
+
 .titleOne{
   font-size: 19px;
   margin: 0px;
@@ -366,6 +416,7 @@ body:before {
   color: #AF1226;
   margin-left: 70px;
   margin-top: 14px;
+  cursor:pointer
 }
 
 
@@ -379,6 +430,12 @@ body:before {
   border-bottom: 3px solid #8D8B89;
 }
 
+.boxTwo:hover{
+  background: #E6F1F6;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.4s, color 0.4s;
+}
 .titleTwo{
   font-size: 19px;
   margin: 0px;
@@ -405,6 +462,7 @@ body:before {
   color: #AF1226;
   margin-left: 70px;
   margin-top: 14px;
+  cursor:pointer;
 }
 
 .boxThree{
@@ -416,6 +474,15 @@ body:before {
   border-bottom: 3px solid #8D8B89;
 }
 
+.boxThree:hover{
+  background: #E6F1F6;
+  -webkit-transition: background 0.2s, color 0.2s;
+  -moz-transition: background 0.2s, color 0.2s;
+  transition: background 0.4s, color 0.4s;
+}
+.highLightThree:hover{
+  background:blue;
+}
 .titleThree{
   font-size: 19px;
   margin: 0px;
@@ -442,6 +509,7 @@ body:before {
   color: #AF1226;
   margin-left: 70px;
   margin-top: 18px;
+  cursor:pointer;
 }
 
 /* DONE WITH THE ARTICLES */
@@ -473,6 +541,13 @@ body:before {
   background-repeat: no-repeat;
 }
 
+.tommyPicture:hover{
+  box-shadow: -10px -10px 0 white;
+  -webkit- transform: translate(10px, 10px);
+  -moz- transform: translate(10px, 10px);
+  transform: translate(10px, 10px);
+}
+
 .tommyText{
   color: white;
   margin-top: -214px;
@@ -489,6 +564,7 @@ body:before {
   border-bottom: 3px solid #8D8B89;
 }
 
+
 .lancePicture{
   width: 95%;
   height: 95%;
@@ -496,6 +572,12 @@ body:before {
   margin-top: 4px;
   background-image: url("pictures/sk8er-4.png");
   background-size: 210px 200px;
+}
+.lancePicture:hover{
+  box-shadow: -10px -10px 0 white;
+  -webkit- transform: translate(10px, 10px);
+  -moz- transform: translate(10px, 10px);
+  transform: translate(10px, 10px);
 }
 
 .lanceText{
@@ -523,6 +605,12 @@ body:before {
   margin-top: 4px;
   background-image: url("pictures/sk8er-3.png");
   background-size: 230px 165px;
+}
+.rodneyPicture:hover{
+  box-shadow: -10px -10px 0 white;
+  -webkit- transform: translate(10px, 10px);
+  -moz- transform: translate(10px, 10px);
+  transform: translate(10px, 10px);
 }
 
 .rodneyText{
@@ -555,6 +643,13 @@ body:before {
 
   }
 
+  .stevePicture:hover{
+    box-shadow: -10px -10px 0 white;
+    -webkit- transform: translate(10px, 10px);
+    -moz- transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+  }
+
 .steveText{
   color:white;
   margin-top: -83px;
@@ -578,6 +673,12 @@ body:before {
 .skatePictures{
   text-align: center;
   margin-top: 23px;
+}
+
+.skatePictures>img:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transition:scale(1.2);
+ transform:scale(1.2);
 }
 /* END OF SKATEBOARDS */
 
@@ -754,4 +855,9 @@ START OF BOTTOM MEDIA BUTTONS */
   color: #7A7A7A;
 
 }
+
 /* END OF BOTTOM MEDIA BUTTON AND FOOTER */
+
+img {
+  max-width:100;
+  }
