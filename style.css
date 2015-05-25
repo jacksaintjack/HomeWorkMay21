@@ -5,13 +5,13 @@ body{
 
 body:before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left:0;
   right: 0;
-  bottom: 0;
-  background-image: linear-gradient(to bottom right, #000, #070719);
-  opacity: .6;
+  bottom: -1254px;
+  background-image: linear-gradient(to top left, #000, #070719);
+  opacity: .4;
 
 }
 
@@ -45,6 +45,7 @@ body:before {
   padding-top: 7px;
   padding-left: 9px;
   color:white;
+  opacity: 0.5;
 }
 .twitter{
   background-color: #6A8DC7;
@@ -60,6 +61,7 @@ body:before {
   padding-left: 9px;
   margin-right:7px;
   color:white;
+  opacity: 0.5;
 }
 
 .rss{
@@ -74,6 +76,7 @@ body:before {
   padding-top: 7px;
   padding-left: 13px;
   color:white;
+  opacity: 0.5;
 }
 
 .facebook {
@@ -89,6 +92,7 @@ body:before {
   padding-top: 7px;
   padding-left: 14px;
   color:white;
+  opacity: 0.5;
 }
 
 .dots{
@@ -103,8 +107,9 @@ body:before {
 
 .dot>span{
   padding-left: 69px;
-  font-size:6px
-  padding-top: 17px;
+  font-size: 4px;
+  margin-top: 4px;
+  float: left;
 
 }
 
@@ -235,6 +240,8 @@ body:before {
   height: 276px;
   margin-left: 9px;
   margin-top: 7px;
+  background-image: url("pictures/top-image.png");
+  background-size: 823px 544px;
 
 
 }
@@ -248,11 +255,11 @@ body:before {
 
 }
 .logo{
-  position:absolute;
-  margin-left: -648px;
-  margin-top: 62px;
-  height: 162px;
-  width: 259px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -231px;
+  height: 192px;
+  width: 309px;
 }
 
 /*END OF TOP PICTURE*/
@@ -261,8 +268,9 @@ body:before {
 .circleSelection{
   float:left;
   list-style-type: none;
-  margin-top: 343px;
-  margin-left: -391px;
+  margin-bottom: 10px;
+  margin-top: 346px;
+  margin-left: -395px;
   color: #B3282E;
 }
 
@@ -273,14 +281,50 @@ body:before {
 }
 /* END OF CIRCLE SELECTIONS */
 
+/* START OF THE ARROW POINTING AT ARTICLE */
+.rightArrow{
+  width: 198px;
+  height: 80px;
+  float: left;
+  margin-top: 697px;
+  margin-left: -880px;
+}
+
+.rightTriangle{
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 30px solid #B4292E;
+  border-bottom: 30px solid transparent;
+  margin-left: 168px;
+}
+
+.box{
+  width: 146px;
+  height: 60px;
+  background-color: #B4292E;
+  margin-left: 22px;
+  margin-top: -59.7px;
+  border-bottom: 3px solid #8D8B89;
+}
+
+.arrowText{
+  color: white;
+  margin-top: 21px;
+  float: left;
+  margin-left: 10px;
+}
+/* END OF ARROW */
+
 /* START OF ARTICLE SELECTIONS */
+
 
 .articles{
 
   width: 675px;
   height:231px;
-  margin-top: 27px;
-  margin-left: -372px;
+  margin-left: 9px;
+  margin-top: 0px;;
   float: left;
 
 
@@ -413,7 +457,7 @@ body:before {
 
 .tommy{
   width: 218px;
-  height: 340px;
+  height: 343px;
   float: right;
   background-color: white;
   border-bottom: 3px solid #8D8B89;
@@ -421,9 +465,12 @@ body:before {
 
 .tommyPicture{
   width: 95%;
-  height: 95%;
+  height: 96%;
   margin-top: 9px;
   margin-left: 5px;
+  background-image: url("pictures/sk8er-2.png");
+  background-size: 238px 329px;
+  background-repeat: no-repeat;
 }
 
 .tommyText{
@@ -447,6 +494,8 @@ body:before {
   height: 95%;
   margin-left: 5px;
   margin-top: 4px;
+  background-image: url("pictures/sk8er-4.png");
+  background-size: 210px 200px;
 }
 
 .lanceText{
@@ -472,6 +521,8 @@ body:before {
   height: 95%;
   margin-left: 6px;
   margin-top: 4px;
+  background-image: url("pictures/sk8er-3.png");
+  background-size: 230px 165px;
 }
 
 .rodneyText{
@@ -493,11 +544,14 @@ body:before {
 }
 
 .stevePicture{
-  width: 98%;
+  width: 97%;
   height: 95%;
   float: left;
   margin-left: 6px;
   margin-top: 4px;
+  background-image: url("pictures/sk8er-1.png");
+  background-size: 478px 167px;
+  background-repeat: no-repeat;
 
   }
 
@@ -673,16 +727,17 @@ START OF BOTTOM MEDIA BUTTONS */
 }
 
 .rssBottom{
-    background-color:#AEAEAE;
-    width:15%;
-    height:90%;
-    float:left;
+  background-color:#AEAEAE;
+  width:15%;
+  height:90%;
+  float:left;
 
 }
 .rssBottom>div{
   padding-top: 3px;
   padding-left: 5px;
   color:#C1C1C1;
+
 }
 
 .facebookBottom {
@@ -697,5 +752,6 @@ START OF BOTTOM MEDIA BUTTONS */
   Padding-top: 3px;
   padding-left: 5px;
   color: #7A7A7A;
+
 }
 /* END OF BOTTOM MEDIA BUTTON AND FOOTER */
