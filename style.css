@@ -38,7 +38,7 @@ body:before {
   width:15%;
   height:90%;
   float:right;
-
+  border-bottom: 3px solid #8D8B89;
 }
 
 .youtube>div{
@@ -52,6 +52,7 @@ body:before {
   height:90%;
   float:right;
   margin-right:7px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .twitter>div{
@@ -62,11 +63,12 @@ body:before {
 }
 
 .rss{
-    background-color:#CA8E31;
-    width:15%;
-    height:90%;
-    float:right;
-    margin-right:7px;
+  background-color:#CA8E31;
+  width:15%;
+  height:90%;
+  float:right;
+  margin-right:7px;
+  border-bottom: 3px solid #8D8B89;
 }
 .rss>div{
   padding-top: 7px;
@@ -80,6 +82,7 @@ body:before {
   height:90%;
   float:right;
   margin-right:7px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .facebook>div{
@@ -121,6 +124,7 @@ body:before {
   height:27px;
   background-color: #B3282E;
   float:right;
+  border-bottom: 3px solid #8D8B89;
 
 }
 
@@ -145,6 +149,7 @@ body:before {
   background-color: #B3282E;
   float:right;
   margin-right: 7px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .lineTextTwo{
@@ -168,6 +173,7 @@ body:before {
   background-color: #B3282E;
   float:right;
   margin-right: 7px;
+  border-bottom: 3px solid #8D8B89;
 
 }
 
@@ -192,6 +198,7 @@ body:before {
   background-color: #B3282E;
   float:right;
   margin-right: 7px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .lineTextFour{
@@ -220,6 +227,7 @@ body:before {
   float: left;
   margin-top: 48px;
   margin-left: -673px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .topPicture{
@@ -260,6 +268,7 @@ body:before {
 
 .circle{
   display:inline-block;
+  border-bottom: 3px solid #8D8B89;
 
 }
 /* END OF CIRCLE SELECTIONS */
@@ -282,7 +291,7 @@ body:before {
   width: 32.25%;
   height:99%;
   float:left;
-
+  border-bottom: 3px solid #8D8B89;
 
 }
 
@@ -305,6 +314,7 @@ body:before {
   font-size: 8px;
   margin-left: 16px;
   color: #555752;
+
 }
 
 .readMoreOne{
@@ -322,6 +332,7 @@ body:before {
   height:99%;
   float: left;
   margin-left:10px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .titleTwo{
@@ -358,6 +369,7 @@ body:before {
   height:99%;
   float: left;
   margin-left:10px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .titleThree{
@@ -404,6 +416,7 @@ body:before {
   height: 340px;
   float: right;
   background-color: white;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .tommyPicture{
@@ -426,6 +439,7 @@ body:before {
   height: 164px;
   background-color: white;
   float:left;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .lancePicture{
@@ -450,6 +464,7 @@ body:before {
   background-color:white;
   float:right;
   margin-right: 10px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .rodneyPicture{
@@ -474,6 +489,7 @@ body:before {
   width: 447px;
   margin-top: 10px;
   background-color: white;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .stevePicture{
@@ -502,6 +518,7 @@ body:before {
   float: left;
   margin-top: 625px;
   margin-left: -677px;
+  border-bottom: 3px solid #8D8B89;
 }
 
 .skatePictures{
@@ -509,3 +526,176 @@ body:before {
   margin-top: 23px;
 }
 /* END OF SKATEBOARDS */
+
+/* START OF THE FOOTER */
+.bottomBox{
+  width: 680px;
+  height: 270px;
+  background-color: white;
+  float: left;
+  margin-top: 945px;
+  margin-left: -678px;
+  border-bottom: 3px solid #8D8B89;
+
+}
+
+.contactInfo{
+  width: 330px;
+  height: 100px;
+  float: left;
+  margin-top: 16px;
+  margin-left:8px;
+}
+
+.contactInfoInput{
+  float: right;
+  width: 323px;
+  height: 190px;
+  margin-top: 16px;
+  margin-right: 8px;
+}
+
+.contactTopText{
+  font-size: 20px;
+  padding-right: 27px;
+}
+
+.contactBodyText{
+  font-size:12px;
+}
+
+.nameBox{
+  float: left;
+  width: 319px;
+  height: 29px;
+  border-left: 2px solid #A2A2A2;
+  border-top: 2px solid #A2A2A2;
+  border-right: 1px solid #A2A2A2;
+  border-bottom: 1px solid #A2A2A2;
+}
+
+.nameText{
+  color: #B7B7B7;
+  margin-left: 11px;
+  margin-top: 6px;
+  float: left;
+}
+
+.emailBox{
+  float: left;
+  margin-top: 9px;
+  width: 319px;
+  height: 29px;
+  border-left: 2px solid #A2A2A2;
+  border-top: 2px solid #A2A2A2;
+  border-right: 1px solid #A2A2A2;
+  border-bottom: 1px solid #A2A2A2;
+}
+
+.emailText{
+  color: #B7B7B7;
+  margin-left: 11px;
+  margin-top: 6px;
+  float: left;
+}
+
+.messageBox{
+  float: left;
+  width: 319px;
+  height: 100px;
+  margin-top: 12px;
+  border-left: 2px solid #A2A2A2;
+  border-top: 2px solid #A2A2A2;
+  border-right: 1px solid #A2A2A2;
+  border-bottom: 1px solid #A2A2A2;
+}
+
+.messageText{
+  color: #B7B7B7;
+  margin-left: 11px;
+  margin-top: 6px;
+  float: left;
+}
+
+.redBarBottom{
+  width: 163px;
+  height:27px;
+  background-color: #B3282E;
+  float:right;
+  margin-top: 210px;
+  margin-right: -322px;
+
+}
+/*
+START OF BOTTOM MEDIA BUTTONS */
+.redBarBottomText{
+  color:white;
+  margin-top: 5px;
+  float: left;
+  margin-left: 50px;
+}
+
+.mediaBoxBottom{
+  width: 130px;
+  height:23px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 9px;
+}
+
+
+.youtubeBottom{
+  background-color:#757575;
+  width:15%;
+  height:90%;
+  float:left;
+  margin-left:5px;
+
+}
+
+.youtubeBottom>div{
+  padding-top: 3px;
+  padding-left: 3.5px;
+  color:#969696;
+}
+.twitterBottom{
+  background-color: #7B7B7B;
+  width:15%;
+  height:90%;
+  float:left;
+  margin-left:5px;
+}
+
+.twitterBottom>div{
+  padding-top: 2px;
+  padding-left: 3px;
+  color:#9A9A9A;
+}
+
+.rssBottom{
+    background-color:#AEAEAE;
+    width:15%;
+    height:90%;
+    float:left;
+
+}
+.rssBottom>div{
+  padding-top: 3px;
+  padding-left: 5px;
+  color:#C1C1C1;
+}
+
+.facebookBottom {
+  background-color:#4D4D4D;
+  width:15%;
+  height:90%;
+  float:left;
+  margin-right:5px;
+}
+
+.facebookBottom>div{
+  Padding-top: 3px;
+  padding-left: 5px;
+  color: #7A7A7A;
+}
+/* END OF BOTTOM MEDIA BUTTON AND FOOTER */
