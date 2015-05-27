@@ -1,0 +1,289 @@
+@media (max-width: 400px) {
+.notMobile{
+    display: $displayNone;
+}
+.pictureArticle{
+  display:none;
+}
+
+.position{
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 192px;
+  width: 309px;
+  display:inline-flex;
+}
+
+.logoMobile{
+  height: 160px;
+  width: 200px;
+  display: block;
+  margin-left: 90px;
+}
+/* START OF ARTICLES */
+.articles {
+  width: 375px;
+  height: 2.5em;
+  margin-left: 0px;
+  margin-top: 0px;
+  float: left;
+}
+.boxOne{
+  margin:0px 3px 0px 0px;
+  padding:0px;
+}
+.titleOne {
+  font-size: 0.6em;
+  margin: 0px;
+  line-height: 0%;
+  margin-left: 14px;
+  color: #555752;
+}
+
+.dateOne {
+  display:$displayNone;
+}
+.bodyTextOne {
+  display:$displayNone;
+}
+
+.bodyTextOne>p{
+  margin:3px 10px 0 0
+
+}
+
+.readMoreOne {
+  display:$displayNone;
+}
+
+.boxTwo{
+  margin:0px 3px 0px 0px;
+  padding:0px
+
+}
+
+.titleTwo {
+  font-size: 0.6em;
+  margin: 0px;
+  line-height: 0%;
+  margin-left: 14px;
+  color: #555752;
+}
+
+.dateTwo {
+  display:$displayNone;
+}
+.bodyTextTwo {
+  display:$displayNone;
+}
+
+.bodyTextTwo>p{
+  margin:3px 10px 0 0
+
+}
+
+.readMoreTwo {
+  display:$displayNone;
+}
+.boxThree{
+  margin:0px 3px 0px 0px;
+  padding:0px;
+
+}
+
+.titleThree {
+  font-size: 0.6em;
+  margin: 0px;
+  line-height: 0%;
+  margin-left: 24px;
+  color: #555752;
+  margin-top: 14px;
+
+}
+
+.dateThree {
+  display:$displayNone;
+}
+.bodyTextThree {
+  display:$displayNone;
+}
+
+.bodyTextThree>p{
+  margin:3px 10px 0 0
+
+}
+
+.readMoreThree {
+  display:$displayNone;
+}
+
+.profiles {
+  width: 23em;
+  height: 10em;
+  float: left;
+  margin-top: 10px;
+  margin-left:0px;
+}
+
+.tommy {
+  width: 33%;
+  height: 100%;
+  float: right;
+  background-color: white;
+  border-bottom: 3px solid $borderColor;
+}
+.tommyPicture {
+  width: 95%;
+  height: 94%;
+  background-image: url("pictures/sk8er-2.png");
+  background-size: 97% 100%;
+  background-repeat: no-repeat;
+  margin: 0.3em
+  }
+.tommyText {
+  color: white;
+  margin-top: -50px;
+  line-height: 15%;
+  margin-left: 1px;
+  text-align: center;
+  font-size: xx-small;
+}
+
+.lance {
+  width: 7.3em;
+  height: 4.5em;
+  background-color: white;
+  float: left;
+}
+
+.lancePicture {
+  width: 95%;
+  height: 95%;
+  margin-left: 3px;
+  margin-top: 2px;
+  background-image: url("pictures/sk8er-4.png");
+  background-size: 100% 100%
+}
+.lanceText {
+  color: white;
+  margin-top: -46px;
+  line-height: 15%;
+  margin-left: 1px;
+  text-align: center;
+  font-size: xx-small;
+
+}
+.rodney {
+  width: 7.3em;
+  height: 4.5em;
+  background-color: white;
+  float: right;
+  margin-right: 0.4em;
+  border-bottom: 3px solid $borderColor;
+}
+
+.rodneyPicture {
+  width: 95%;
+  height: 95%;
+  margin-left: 3px;
+  margin-top: 2px;
+  background-image: url("pictures/sk8er-3.png");
+  background-size: 100% 100%
+}
+.rodneyText {
+  color: white;
+  margin-top: -47px;
+  line-height: 15%;
+  margin-left: 1px;
+  text-align: center;
+  font-size: xx-small;
+}
+.steve{
+  float: left;
+  height: 5.3em;
+  width: 15em;
+  margin-left: 0;
+  margin-top: 0px;
+  background-color: white;
+  border-bottom: 3px solid $borderColor;
+}
+
+.stevePicture{
+  width: 97%;
+  height: 95%;
+  float: left;
+  margin-left: 4px;
+  margin-top: 2px;
+  background-image: url("pictures/sk8er-1.png");
+  background-size: 110% 100%;
+  background-repeat: no-repeat;
+
+  }
+
+.stevePicture:hover{
+  box-shadow: -10px -10px 0 white;
+  -webkit-transform: translate(10px, 10px);
+  -moz-transform: translate(10px, 10px);
+  transform: translate(10px, 10px);
+  }
+
+.steveText{
+  color: white;
+  float: left;
+  font-size: xx-small;
+  margin-left: 83px;
+  margin-top: -43px;
+}
+
+.skateBoards {
+  background-color: white;
+  height: 547px;
+  width: 368px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 0px;
+  border-bottom: 3px solid $borderColor;
+}
+.bottomBox {
+  width: 358px;
+  height: 355px;
+  background-color: white;
+  margin-top: 10px;
+  border-bottom: 3px solid $borderColor;
+  margin-left: 0px;
+}
+
+.contactInfo {
+  width: 330px;
+  height: 100px;
+  float: left;
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.contactInfoInput {
+  float: right;
+  width: 249px;
+  height: 190px;
+  margin-top: 17px;
+  margin-right: 100px;
+}
+
+.redBarBdottom {
+  width: 163px;
+  height: 27px;
+  background-color: #B3282E;
+  float: right;
+  margin-top: 210px;
+  margin-right: -322px;
+}
+
+.mediaBoxBottom {
+  width: 130px;
+  height: 23px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 20px;
+
+}
+}
