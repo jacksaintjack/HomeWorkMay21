@@ -1,0 +1,58 @@
+@media (max-width: 800px) {
+.notMobile{
+    display: none;
+  }
+
+.pictureArticle{
+  display:none;
+}
+
+.position{
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 192px;
+  width: 309px;
+  display:inline-flex;
+}
+
+.logoMobile{
+  height: 160px;
+  width: 200px;
+  display: block;
+  margin-left: 268px;
+}
+
+.articles {
+  width: 675px;
+  height: 231px;
+  margin-left: 15px;
+  margin-top: 0px;
+  float: left;
+}
+
+.profiles {
+  width: 675px;
+  height: 340px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.skateBoards {
+  background-color: white;
+  height: 300px;
+  width: 677px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-bottom: 3px solid #8D8B89;
+}
+.bottomBox {
+  width: 680px;
+  height: 270px;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-bottom: 3px solid #8D8B89;
+}
+}
